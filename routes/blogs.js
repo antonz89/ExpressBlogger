@@ -6,7 +6,7 @@ const router = express.Router();
 //validations
 //POST
 const { validateBlogData } = require("../validations/blogs");
-//PUP
+//PUT
 const { validateUpdatedBlogData } = require("../validations/blogs");
 
 
